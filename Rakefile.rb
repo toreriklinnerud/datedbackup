@@ -24,7 +24,7 @@ spec = Gem::Specification.new do |s|
   s.bindir   = 'bin'
   s.executables = ["dbackup"]   
   
-  s.add_dependency 'activesupport', '>= 1.4.2'             
+  s.add_dependency 'activesupport', '= 1.4.2'  
       
   s.has_rdoc          = true
   s.extra_rdoc_files  = FileList["example_configs/**/*"].to_a + extra_rdoc_files
