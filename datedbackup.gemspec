@@ -3,7 +3,7 @@ extra_files = %w(README MIT-LICENSE GPL-LICENSE RELEASES CHANGELOG)
 
 Gem::Specification.new do |s| 
   s.name      = "dated_backup"
-  s.version   = "0.2.3"
+  s.version   = "0.2.4"
   s.author    = "Scott Taylor"
   s.email     = "scott@railsnewbie.com"
   s.homepage  = "http://rubyforge.org/projects/datedbackup"
