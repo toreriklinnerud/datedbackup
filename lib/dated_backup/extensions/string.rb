@@ -12,10 +12,10 @@ class String
         time_array = $1.gsub(/h|m|s/, '').split '-'
         Time.gm(*time_array)
       rescue 
-        raise StringToTimeConversionError, "The string cannot be a converted to a valid time (it is out of range)"
+        raise StringToTimeConversionError, "The string '#{self}' cannot be a converted to a valid time (it is out of range)"
       end
     else
-      raise StringToTimeConversionError, "The string cannot be converted to a time object"
+      raise StringToTimeConversionError, "The string '#{self}' cannot be converted to a time object"
     end
   end
 end
