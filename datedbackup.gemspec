@@ -7,8 +7,6 @@ Gem::Specification.new do |s|
   s.platform  = Gem::Platform::RUBY
   s.summary   = "Incremental Dated Backups Using Rsync"
               
-  s.files     = rdoc_files + extra_rdoc_files
-  
   s.bindir   = 'bin'
   s.executables = ["dbackup"]   
   
